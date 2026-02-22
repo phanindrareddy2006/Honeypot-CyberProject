@@ -1,0 +1,33 @@
+.products {
+
+display: flex;
+
+gap: 30px;
+
+padding: 40px;
+
+}
+
+.card {
+
+background: #020617;
+
+padding: 20px;
+
+border-radius: 10px;
+
+width: 200px;
+
+cursor: pointer;
+
+transition: 0.3s;
+
+}
+
+.card:hover {
+
+transform: scale(1.05);
+
+box-shadow: 0 0 10px #38bdf8;
+
+}
